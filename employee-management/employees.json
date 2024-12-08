@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Chow Zhi Liang",
+        "gender": "male",
+        "maritalStatus": "Single",
+        "phone": "0164227749",
+        "email": "chowzhiliang@hotmail.com",
+        "address": "Jalan Chor Sin Kheng, 11500 Ayer Itam, Penang, Malaysia",
+        "dob": "1997-04-23",
+        "nationality": "Malaysian",
+        "hireDate": "2024-12-13",
+        "department": "Senior Software Developer"
+    },
+    {
+        "name": "Chow Zhi Liang",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "phone": "0164227749",
+        "email": "chowzhiliang@hotmail.com",
+        "address": "39-O, Jalan Chor Sin Kheng, 11500 Ayer Itam, Pulau Pinang, Malaysia",
+        "dob": "1997-04-23",
+        "nationality": "Malaysian",
+        "hireDate": "2024-12-13",
+        "department": "Senior Software Developer"
+    }
+]

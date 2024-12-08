@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div style="display: flex; justify-content: flex-start; width: 100%; padding: 20px;">
+
+        <div class="container">
+            <h2>Add Employee</h2>
+            <form id="employeeForm">
+                <label for="name">Employee Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="maritalStatus">Marital Status</label>
+                <select id="maritalStatus" name="maritalStatus" required>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+
+                <label for="phone">Phone No.</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Address</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="nationality">Nationality</label>
+                <input type="text" id="nationality" name="nationality" required>
+
+                <label for="hireDate">Hire Date</label>
+                <input type="date" id="hireDate" name="hireDate" required>
+
+                <label for="department">Department</label>
+                <input type="text" id="department" name="department" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="table-container">
+            <h2>Employee List</h2>
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Marital Status</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Date of Birth</th>
+                        <th>Nationality</th>
+                        <th>Hire Date</th>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeList">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
